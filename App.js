@@ -9,18 +9,30 @@ import ImageStart from './components/imageStart';
 import ImageStartTo from './components/imageStartTo';
 import TextInputStart from './components/TextInputStart';
 import AlertStart from './components/alertStart';
+import DimensionsStart from './components/DimensionsStart';
+import ScrollViewStart from './components/ScrollViewStart';
+import FlatListStart from './components/FlatListStart';
+import ActivityIndicatorStart from './components/ActivityIndicatorStart';
+import TouchableStart from './components/TouchableStart';
+import StatusBarStart from './components/StatusBarStart';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* <ViewStart></ViewStart>
-      <TextStart></TextStart>
-      <TextStartTo></TextStartTo>
-      <ButtonStart></ButtonStart> 
-      <ImageStart></ImageStart> 
-      <ImageStartTo></ImageStartTo> 
-      <TextInputStart></TextInputStart> */}
-      <AlertStart></AlertStart>
+      {/* <ViewStart></ViewStart> */}
+      {/* <TextStart></TextStart> */}
+      {/* <TextStartTo></TextStartTo> */}
+      {/* <ButtonStart></ButtonStart>  */}
+      {/* <ImageStart></ImageStart>  */}
+      {/* <ImageStartTo></ImageStartTo>  */}
+      {/* <TextInputStart></TextInputStart>  */}
+      {/* <AlertStart></AlertStart> */}
+      {/* <DimensionsStart></DimensionsStart>  */}
+      {/* <ScrollViewStart></ScrollViewStart>  */}
+      {/* <FlatListStart></FlatListStart> */}
+      {/* <ActivityIndicatorStart></ActivityIndicatorStart> */}
+      {/* <TouchableStart></TouchableStart> */}
+      <StatusBarStart></StatusBarStart>
     </View>
   );
 }
